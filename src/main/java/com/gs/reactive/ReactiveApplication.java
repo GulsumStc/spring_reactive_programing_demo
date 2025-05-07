@@ -25,7 +25,7 @@ public class ReactiveApplication {
 						.lastName("Satic" + i)
 						.age(String.valueOf(i))
 						.build()
-				);
+				).subscribe();
 
 			}
 		};
